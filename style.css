@@ -1,0 +1,135 @@
+boby {
+	font-family: Times New Roman, serif;
+	background-color: #86c9d6;
+	margin: auto;
+}
+
+#titulo {
+	color: black;
+	background-color: #b3e0ff;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+#subtitulo {
+	color: black;
+	box-shadow: 2px 5px 5px blue;
+	margin: auto;
+	padding: 10px;
+	width: fit-content;
+
+}
+
+#subtitulo2 {
+	font-size: 30px;
+	color: black;
+}
+
+p {
+	max-width: 900px;
+	margin: auto;
+}
+
+table {
+	border: 5px solid black;
+	border-collapse: collapse;
+}
+
+th td {
+	border: 1px solid black;
+}
+
+a:hover {
+	color: royalblue;
+}
+
+.curiosidade {
+	max-width: 900px;
+	margin: auto;
+}
+
+.temperatura {
+	max-width: 900px;
+	margin: auto;
+}
+
+meter::-wibkit-meter-bar {
+	background: #e0e0e0;
+}
+
+.video-wrapper {
+	max-width: 800px;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	margin: 0 auto;
+}
+
+.video-wrapper iframe {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.galeria {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.img-galeria {
+	width: 250px;
+	max-width: 40%;
+	height: auto;
+}
+
+.img-fluida {
+	max-width: 100%;
+	height: auto;
+}
+
+.galeria2 {
+	display: flex;
+	justify-content: center;
+	gap: 0px;
+	flex-wrap: wrap;
+}
+
+fieldset {
+	box-sizing: border-box;
+	width: 400px;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 20px 30px;
+	height: auto;
+}
+
+select, textarea {
+	box-sizing: border-box;
+	max-width: 100%;
+	height: auto;
+}
+
+.mapa-wrapper {
+	max-width: 550px;
+	width: 100% ;
+	height: 450px;
+}
+
+.msg {
+	max-width: 900px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}

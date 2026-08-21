@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="brighton.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Camisa</title>
+</head>
+<body style="background-color: #86c9d6;">
+
+	<style>
+		
+		h1 {
+			color: black;
+			text-align: center;
+			font-size: 35px;
+			font-family: Calibri, Arial, sans-serif;
+		}
+
+		p {
+			text-align: justify;
+			font-size: 15px;
+			font-family: Rockwell, sans-serif;
+		}
+
+		#extra {
+			text-align: center;
+			font-family: Times New Roman, serif;
+		}
+
+		h3 {
+			color: darkblue;
+			text-align: center;
+			font-size: 18px;
+			font-family: Calibri, Arial, sans-serif;
+		}
+
+		h2 {
+			color: black;
+			text-align: center;
+			font-size: 21px;
+			font-family: Calibri, Arial, sans-serif;
+		}
+
+		.centralizar {
+			text-align: center;
+			font-size: 16px;
+		}
+
+	</style>
+
+	<br>
+
+	<img src="brighton.png" width="180" height="165" style="display: block; margin: auto;" title="Logo do time" class="img-fluida">
+
+	<br>
+	<p align="center" id="subtitulo" class="centralizar"><a href="https://www.brightonandhovealbion.com/home" accesskey="B" target="blank">Site oficial</a> <b>|</b> <a href="index.html">Menu</a> <b>|</b> <a href="torcida.html">Torcida</a> <b>|</b> <a href="elenco.html">Elenco</a> <b>|</b> Camisa <b>|</b> <a href="cidade.html">Cidade</a></p>
+	<hr>
+	<h1 align="center" id="titulo">Camisas do Brighton</h1>
+		<div class="galeria2">
+			<img src="camisa1.webp" width="200">
+			<img src="camisa2.webp" width="200">
+			<img src="camisa3.webp" width="200">
+		</div>
+	<br>
+		<fieldset>
+			<form>
+				<legend><b>Personalize sua camisa</b></legend>
+
+				<br><br>
+
+				<label for="nome">Digite o nome que você deseja colocar na sua camisa:</label><br>
+				<input type="name" name="Digite sue nome" id="nome" minlength="3" maxlength="12">
+
+				<br><br>
+
+				<label for="numero">Coloque o número de sua camisa:</label><br>
+				<input type="number" name="numero" id="numero" min="1" max="99" required>
+
+				<br><br>
+
+				<label for="cor">Selecione a cor de sua camisa</label><br>
+				<input type="color" name="cor" id="cor">
+
+				<br><br>
+
+				<label for="patrocinio">Deseja ter patrocínio em sua camisa?</label><br>
+				<input type="radio" name="patrocinio">Sim
+				<input type="radio" name="patrocinio">Não
+
+				<br><br>
+
+				<label>Outros acessórios (Opcional):</label><br>
+					<select>
+						<option>Calção</option>
+						<option>Meião</option>
+						<option>Chuteira</option>
+						<option>Boné</option>
+						<option selected>Nenhum</option>
+					</select>
+
+				<br><br>
+
+				<label>Observação (Opcional):</label><br>
+				<textarea id="msg" class="msg" maxlength="1000" rows="5" cols="50" placeholder="Digite sua observação de sua camisa aqui"></textarea>
+
+				<br><br>
+
+				<div style="text-align: center;">
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Limpar">
+					<input type="button" value="Clique aqui!" onclick="alert('Se você já preencheu o formulário, aguarde o pagamento');">
+				</div>
+			</form>
+		</fieldset>
+
+</body>
+</html>
