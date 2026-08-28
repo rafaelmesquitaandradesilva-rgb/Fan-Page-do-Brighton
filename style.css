@@ -114,6 +114,10 @@ select, textarea {
 	height: auto;
 }
 
+hr {
+	width: 60%;
+}
+
 .mapa-wrapper {
 	max-width: 550px;
 	width: 100% ;
