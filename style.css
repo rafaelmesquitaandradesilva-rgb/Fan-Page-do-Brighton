@@ -140,3 +140,21 @@ hr {
 	max-width: 100%;
 	height: auto;
 }
+
+#animacao {
+	animation-name: rodar;
+	animation-duration: 0.5s;
+	animation-iteration-count: ;
+	animation-timing-function: linear;
+	animation-direction: normal;
+}
+
+@keyframes rodar{
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+} 
