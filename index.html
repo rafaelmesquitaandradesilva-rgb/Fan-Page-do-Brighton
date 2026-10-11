@@ -57,11 +57,35 @@
 			font-size: 16px;
 		}
 
+		input[type="button"] {
+			margin-top: 10px;
+			color: whitesmoke;
+			padding: 10px;
+			font-size: 14px;
+			border: none;
+			border-radius: 5px;
+			background-color: #40957f;
+			cursor: pointer;
+			box-shadow: 2px 2px 3px gray;
+		}
+
+		input[type="button"]:hover {
+			margin-top: 10px;
+			color: black;
+			padding: 10px;
+			font-size: 14px;
+			border: none;
+			border-radius: 5px;
+			background-color: #3d6868;
+			cursor: pointer;
+			box-shadow: 2px 2px 3px gray;
+		}
+
 	</style>
 
 	<br>
 
-	<img src="brighton.png" width="180" height="165" style="display: block; margin: auto;" title="Logo do time" class="img-fluida">
+	<img src="brighton.png" width="180" height="165" style="display: block; margin: auto;" title="Logo do time" class="img-fluida" id="animacao">
 
 	<br>
 
@@ -87,9 +111,24 @@
 
 		<h1 align="center" id="subtitulo2">Últimos jogos</h1>
 
+		<h2 align="center">Mesmo com um a menos, Brighton vence o Sunderland fora de casa por 2 a 0</h2>
+
+		<h3 align="center">Veja os melhores momentos:</h3>
+
+		<div class="video-wrapper">
+			<iframe src="https://www.youtube.com/embed/zSRcTyqII0Y"
+			title="Vídeo do jogo"
+			width="800"
+			height="400"
+			allowfullscreen>
+			</iframe>
+		</div>
+
+		<br><br>
+
 		<h2 align="center">Brighton derrota o atual campeão Arsenal por 3 a 0 em casa na Premier League</h2>
 
-		<h3 align="center">Veja os melhores momentos</h3>
+		<h3 align="center">Veja os melhores momentos:</h3>
 
 		<div class="video-wrapper">
 			<iframe src="https://www.youtube.com/embed/XdU4fPIf3XU"
@@ -126,13 +165,6 @@
 			height="400"
 			allowfullscreen 
 			></iframe>
-
-		<br><br>
-
-		<h2 align="center">Brighton empata com o Leeds United em casa na 3° rodada da Premier League</h2>
-
-		<img src="https://e0.365dm.com/26/09/1600x900/skysports-brighton-leeds_7342055.jpg?20260905161632" class="img-center" style="display: block; margin: auto; max-width: 500px; width: 100%; border: 4px solid; box-sizing: border-box;" title="Imagem do jogo">
-		<h3 align="center">Para ver os melhores momentos, clique <a href="https://www.espn.com.br/video/clip/_/id/17214219?ex_cid=BrasilOneBox_Premier" target="blank">aqui</a>
 
 		<br><br>
 
@@ -218,6 +250,8 @@
 		<br>
 
 		<hr>
-			<h3 align="center" id="return"><a href="#Inicio">Início</h3>
+
+		<h3 align="center" id="return"><a href="#Inicio">Início</h3>
+
 </body>
 </html>
