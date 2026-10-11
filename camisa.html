@@ -48,11 +48,39 @@
 			font-size: 16px;
 		}
 
+		input[type="button"],
+		input[type="submit"], 
+		input[type="reset"] {
+			margin-top: 10px;
+			color: whitesmoke;
+			padding: 10px;
+			font-size: 14px;
+			border: none;
+			border-radius: 5px;
+			background-color: #40957f;
+			cursor: pointer;
+			box-shadow: 2px 2px 3px gray;
+		}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover {
+			margin-top: 10px;
+			color: black;
+			padding: 10px;
+			font-size: 14px;
+			border: none;
+			border-radius: 5px;
+			background-color: #3d6868;
+			cursor: pointer;
+			box-shadow: 2px 2px 3px gray;
+		}
+
 	</style>
 
 	<br>
 
-	<img src="brighton.png" width="180" height="165" style="display: block; margin: auto;" title="Logo do time" class="img-fluida">
+	<img src="brighton.png" width="180" height="165" style="display: block; margin: auto;" title="Logo do time" class="img-fluida" id="animacao">
 
 	<br>
 
@@ -119,6 +147,8 @@
 				</div>
 			</form>
 		</fieldset>
+
+		<br>
 
 </body>
 </html>
