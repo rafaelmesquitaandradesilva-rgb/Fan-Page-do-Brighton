@@ -4,6 +4,10 @@ boby {
 	margin: auto;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 #titulo {
 	color: black;
 	background-color: #b3e0ff;
