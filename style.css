@@ -123,6 +123,8 @@ select, textarea {
 
 hr {
 	width: 60%;
+	height: 3px;
+	background-color: #1C00FF;
 }
 
 .mapa-wrapper {
