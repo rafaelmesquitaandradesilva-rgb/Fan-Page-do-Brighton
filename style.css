@@ -124,6 +124,7 @@ select, textarea {
 hr {
 	width: 60%;
 	height: 3px;
+	border: none;
 	background-color: #1C00FF;
 }
 
